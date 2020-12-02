@@ -12,6 +12,9 @@ branches:
 
 matrix:
   include:
+  arch:
+   - amd64
+   - ppc64le
     - php: 7.2
       dist: bionic
       env: DEPENDENCIES='low'
